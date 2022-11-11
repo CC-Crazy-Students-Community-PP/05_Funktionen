@@ -76,6 +76,7 @@
             const gap = " ";
             const outputStr = "Hallo " + firstName6 + gap + lastName6 + "!";
             return outputStr;
+            console.log( "Funktion beendet" );                                  // da return die Funktion beendet kann diese Stelle nicht mehr erreicht werden
         }
     
         // 2. Funktionalität: string output
